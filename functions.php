@@ -1,16 +1,18 @@
 <?php
 
-if( ! class_exists( 'Smashing_Updater' ) ){
-    include_once( plugin_dir_path( __FILE__ ) . 'updater.php' );
-}
+// if( ! class_exists( 'Smashing_Updater' ) ){
+//     include_once( plugin_dir_path( __FILE__ ) . 'updater.php' );
+// }
 
-$updater = new Smashing_Updater( __FILE__ );
-$updater->set_username( 'befrees' );
-$updater->set_repository( 'captive-theme' );
+// $updater = new Smashing_Updater( __FILE__ );
+// $updater->set_username( 'befrees' );
+// $updater->set_repository( 'captive-theme' );
 /*
     $updater->authorize( 'abcdefghijk1234567890' ); // Your auth code goes here for private repos
 */
-$updater->initialize();include get_template_directory() . '/src/assets.php';
+
+// $updater->initialize();include get_template_directory() . '/src/assets.php';
+    
 include get_template_directory() . '/src/custom-fields.php';
 
 function dd($array, $die = false) {
