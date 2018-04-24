@@ -1,0 +1,179 @@
+
+.color {
+	font-family: Lato, sans-serif;
+}
+
+::-webkit-input-placeholder       {font-size: inherit; text-transform: uppercase; color: inherit; font-weight: normal;opacity: 1; transition: opacity 0.3s ease;}
+::-moz-placeholder                {font-size: inherit; text-transform: uppercase; color: inherit; font-weight: normal;opacity: 1; transition: opacity 0.3s ease;}
+:-moz-placeholder                 {font-size: inherit; text-transform: uppercase; color: inherit; font-weight: normal;opacity: 1; transition: opacity 0.3s ease;}
+:-ms-input-placeholder            {font-size: inherit; text-transform: uppercase; color: inherit; font-weight: normal;opacity: 1; transition: opacity 0.3s ease;}
+:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+:focus::-moz-placeholder          {opacity: 0; -moz-transition: opacity 0.3s ease;}
+:focus:-moz-placeholder           {opacity: 0; -moz-transition: opacity 0.3s ease;}
+:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+#wpcf7-f86-p9-o1  {
+	padding-top: 15px;
+}
+.contactBlock {
+	font-size: 17px;
+	color: #6d6e70;
+}
+.formPlace .wpcf7-form-control-wrap {
+	display: block;
+	margin-bottom: 15px;
+}
+.downForm .border {
+	border: none;
+}
+.downForm .border input, .downForm .border textarea {
+	border-bottom: 2px solid #1eacf8;
+	background: #f4f6f7;
+	color: #babcbe;
+	padding: 0 6px;
+}
+.downForm .border textarea {
+	padding: 4px 6px;
+}
+.formPlace input.styleInp, 
+.formPlace textarea,
+.wpcf7-form-control {
+	display: block;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #1eacf8;
+	width: 100%;
+	padding: 0 6px;
+	height: 30px;
+}
+.formPlace textarea {
+	height: 100px;
+	padding: 3px 6px;
+}
+.formPlace input[type=submit]{
+	width: auto;
+    float: left;
+    text-transform: uppercase;
+    padding: 1px 38px;
+    border-radius: 5px;
+    /*margin-top: 1rem;*/
+    font-size: 11px;
+    color: #fff;
+    background: rgb(30,172,249);
+background: -moz-linear-gradient(top, rgba(30,172,249,1) 0%, rgba(17,109,194,1) 100%);
+background: -webkit-linear-gradient(top, rgba(30,172,249,1) 0%,rgba(17,109,194,1) 100%);
+background: linear-gradient(to bottom, rgba(30,172,249,1) 0%,rgba(17,109,194,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1eacf9', endColorstr='#116dc2',GradientType=0 );
+}
+.adresPlace hr {
+	border-color: #1eacf8;
+	max-width: 135px;
+}
+.adresPlace .push {
+	padding-bottom: 0;
+	padding-top: 7px;
+	margin-bottom: 30px;
+}
+.imgGroup {
+    padding-top: 25px;
+}
+.imgGroup a + a {
+	margin-left: 12px;
+}
+
+.frontFoto:after {
+	content: '';
+	display: block;
+	position: absolute;
+
+}
+.btnBlock3 {
+	position: relative;
+}
+.page-template-_page-contact .btnBlock h2 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #fff;
+    left: 0;
+    padding-top: 90px;
+    width: 100%;
+    text-align: center;
+    position: static;
+    margin-bottom: 70px;
+}
+
+.bg-grad {
+	background: -moz-linear-gradient(top, rgba(239,249,255,1) 0%, rgba(255,255,255,0) 100%);
+background: -webkit-linear-gradient(top, rgba(239,249,255,1) 0%,rgba(255,255,255,0) 100%);
+background: linear-gradient(to bottom, rgba(239,249,255,1) 0%,rgba(255,255,255,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff9ff', endColorstr='#00ffffff',GradientType=0 );
+-webkit-background-size: 100% 250px;
+background-size: 100% 250px;
+background-repeat: no-repeat;
+}
+
+.frontFoto .color.right-color-block {
+	left: 50%;
+	right: 0;
+	margin-left: 8%;
+	top: 50%;
+	bottom: auto;
+	-webkit-transform: translate(0,-50%);
+	-ms-transform: translate(0,-50%);
+	-o-transform: translate(0,-50%);
+	transform: translate(0,-50%);
+	padding: 108px 80px;
+	font-size: 60px;
+	color: #fff;
+	font-weight: 300;
+	line-height: 1.2;
+}
+.frontFoto .color.right-color-block p {
+	padding: 0;
+	text-align: left;
+}
+
+.page-template-_page-contact .frontFoto .color {
+	padding: 38px 0;
+}
+.page-template-_page-contact .frontFoto .color p {
+	padding: 0;
+}
+.contactBlock h2 {
+	padding: 52px 0 0px 0;
+    margin-top: 0;
+    margin-bottom: 67px;
+}
+.adresPlace h4 {
+	font-size: 20px;
+}
+/*.parBlock {
+	margin-bottom: 40px;
+}*/
+.parBlock-row {
+	max-width: 1090px;
+	margin: 0 auto 40px auto;
+}
+.approachBlock {
+	position: relative;
+}
+.approachBlock .childItem:after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid #1eacf8;
+    max-width: 194px;
+    width: 100%;
+    padding-top: 21px;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.childItem__inner {
+	max-width: 100%;
+	width: 420px;
+	margin: 0 auto;
+}
